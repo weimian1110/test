@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,div,ul,li,dl,dt,dd,h1,h2,h3,form,a,img,span,em,i,input{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#666;}
+a:hover{ color:#ac2117;}
+img{ border:0 none; vertical-align:baseline;}
+body{ font-family:"微软雅黑"; font-size:14px; color:#333333; background:url(../images/bg.png); padding-bottom:184px;}
+/*清浮动*/
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; clear:both; height:0; font-size:0; visibility:hidden;}
+/*主体*/
+.layer{ width:990px; height:auto; margin:0 auto;}
+.layout{ width:984px; height:auto; margin:0 auto; background:#fdfaf4; border:#bdab85 dashed 1px;}
+.header{ width:100%; height:auto; background:url(../images/header-bg.jpg) no-repeat center top;}
+.header-rule{ padding:350px 0 88px 83px;}
+.header-rule li{ line-height:23px; color:#0c0b0a;}
+.header-rule span{ color:#a10f02;}
+
+.title{ height:62px; width:800px; margin:19px 0 0 49px; background:url(../images/tit-bg.jpg) no-repeat; text-indent:-99em;/*文本偏移*/ overflow:hidden;/*溢出隐藏*/}
+.main{ width:320px; height:auto; padding-left:616px; margin-left:48px;  margin-top:41px;}
+.main-text dt{ line-height:36px; font-size:18px; color:#333333;}
+.main-text dd{ padding-left:15px; line-height:31px; background:url(../images/text-icon.png) no-repeat 0 10px;}
+.main-text dd a{ text-decoration:underline;}
+.main-btn{ display:block; width:166px; height:45px; line-height:45px; text-align:center; background:url(../images/btn-bg.png) no-repeat; font-size:16px; color:#fff; margin-top:101px; text-shadow:1px 1px 3px #333;}
+.main-btn:hover{ color:#fff;}
+
+.layer-one .main{ height:454px; background:url(../images/one-bg.jpg) no-repeat 7px top;}
+
+.layer-two{ margin-top:24px;}
+.layer-two .title{ padding-left:47px; background-position:0 -62px;}
+.layer-two .main{ height:364px; background:url(../images/two-bg.jpg) no-repeat;}
+.layer-two .main-text{ padding-top:9px;}
+.layer-two .main-btn{ margin-top:60px;}
+
+.layer-three{ margin-top:27px;}
+.layer-three .title{margin:16px 0 0 47px; background-position:0 -124px;}
+.layer-three .main{ margin-top:26px; height:472px; background:url(../images/three-bg.jpg) no-repeat;}
+.layer-three .main-text dt{ line-height:48px;}
+.layer-three .main-text dd{ line-height:19px; width:273px; background-position:0 2px;}
+.layer-three .main-btn{ margin-top:91px;}
+
+.layer-four{ margin-top:27px;}
+.layer-four .title{ background-position:0 -186px; margin:11px 0 0 48px;}
+.mian-reward{ margin:10px 0 0 66px; padding-bottom:19px;}
+.mian-reward li{ padding-left:15px; line-height:27px; color:#666; background:url(../images/reward-icon.png) no-repeat;}
+.mian-reward span{ color:#bf2014;}
+
